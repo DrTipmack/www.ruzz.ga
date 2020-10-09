@@ -4,7 +4,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="en">
 	<head>
 		<title>Block101 Projects</title>
 		<meta charset="utf-8" />
@@ -42,12 +42,12 @@
 						<h2>Menu</h2>
 						<ul>
 							<li><a href="index.html">Home</a></li>
-							<li><a href="#Projects">Projects:</a>
+							<li><a href="index.html#Projects">Projects:</a>
 								<ul>
 									<li><a href="IssTracker.html">Iss Tracker</a></li>
+									<li><a href="autosignin.html">Classroom auto-sign-in</a> </li>
 								</ul>
-							</li> 
-							<li><a href="elements.html">Elements</a></li>
+							</li>
 						</ul>
 					</nav>
 
@@ -57,10 +57,16 @@
 							<h1>Auto sign in</h1>
 							<span class="image main"><img src="images/pic13.jpg" alt="" /></span>
 							<p>This project is a python script that will locate, and sign in to registers in Google Classroom. As there is no 'register' object in Google Classroom, most teachers use short answer or multiple choice questions. This script detects common patterns, and automatically signs the user in. This script is not completed yet, and is a working progress.</p>
-							<p>As it is not completed, to run the script, you need to download and run the script yourself. To do that, you need to press the download button below, press the Enable Classroom API button below (you need a google dev account for this), put the credentials.json file in the same directory as the script, run the commands:<code>pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib</code> and then, you can run the script.</p>
+							<p>As it is not completed, to run the script, you need to download and run the script yourself. To do that, you need to press the download button below, press the Enable Classroom API button below (you need a google dev account for this), put the credentials.json file in the same directory as the script, run the commands:
+								<code id="copy">
+									pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+								</code>
+								and then, you can run the script.
+							</p>
 							<ul class="actions">
-										<li><a href="autoRegister.py" class="button primary icon solid fa-download" download>Download</a></li>
+										<li><a href="files/autoRegister.py" class="button primary icon solid fa-download" download>Download</a></li>
 										<li><a href="https://console.developers.google.com/henhouse/?pb=%5B%22hh-0%22%2C%22classroom.googleapis.com%22%2Cnull%2C%5B%5D%2C%22https%3A%2F%2Fdevelopers.google.com%22%2Cnull%2C%5B%5D%2Cnull%2C%22Enable%20the%20Classroom%20API%22%2C1%2Cnull%2C%5B%5D%2Cfalse%2Cfalse%2Cnull%2Cnull%2Cnull%2Cnull%2Cfalse%2Cnull%2Cfalse%2Cfalse%2Cnull%2Cnull%2Cnull%2C%22DESKTOP%22%2Cnull%2C%22ClassroomAutoSignIn%22%2Ctrue%2C%22ClassroomAutoSignIn%22%2Cnull%2Cnull%2Cfalse%5D" class="button primary icon solid fas fa-external-link-alt" target="_blank">Open API Project</a></li>
+										<li><button onclick="copy_text('copy')" class="button primary">Copy the code</button></li>
 									</ul>
 								
 						</div>
@@ -72,15 +78,15 @@
 							<section>
 								<h2>Get in touch</h2>
 								<form method="post" action="" onsubmit="return false">
-									  	<div class="fields">
+									<div class="fields">
 										<div class="field half">
-											<input type="text" name="name" id="name" placeholder="Name" />
+											<label for="name"></label><input type="text" name="name" id="name" placeholder="Name" />
 										</div>
 										<div class="field half">
-											<input type="email" name="email" id="email" placeholder="Email" />
+											<label for="email"></label><input type="email" name="email" id="email" placeholder="Email" />
 										</div>
 										<div class="field">
-											<textarea name="message" id="message" placeholder="Message"></textarea>
+											<label for="message"></label><textarea name="message" id="message" placeholder="Message"></textarea>
 										</div>
 									</div>
 									<ul class="actions">
@@ -98,7 +104,7 @@
 								</ul>
 							</section>
 							<ul class="copyright">
-								<li>&copy; Block101.co.uk. All rights reserved</li><li>By using the site, you agree that you have read and consented with the <a href="Privacy.html">Privacy Policy</a></li><li>Icons made by <a href="https://icon54.com/" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></li>
+								<li>&copy; Block101.co.uk. All rights reserved</li><li>By using the site, you agree that you have read and consented with the <a href="privacy.html">Privacy Policy</a></li><li>Icons made by <a href="https://icon54.com/" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></li>
 							</ul>
 						</div>
 					</footer>
@@ -111,6 +117,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/other.js"></script>
 
 	</body>
 </html>

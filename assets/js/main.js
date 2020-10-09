@@ -180,5 +180,8 @@
 						$menu._hide();
 
 			});
+		$("#selectAll").click(function () {
+		$(this).parents(".announcementInfoText").children("textarea").select();
+		});
 
 })(jQuery);
