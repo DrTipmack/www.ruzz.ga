@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7306dc7c-8395-45a7-a23d-ebd0d136877d" name="Default Changelist" comment="cleaned site, added copy text button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +80,7 @@
       <workItem from="1602187004238" duration="778000" />
       <workItem from="1602191671358" duration="40000" />
       <workItem from="1602267209532" duration="5639000" />
+      <workItem from="1602440467697" duration="3351000" />
     </task>
     <task id="LOCAL-00001" summary="fixed directory">
       <created>1602187472559</created>
@@ -127,6 +129,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1602187166806" />
+    <state x="456" y="275" key="ReplaceDuplicatesPrompt" timestamp="1602442231134">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="456" y="275" key="ReplaceDuplicatesPrompt/0.0.1280.680@0.0.1280.680" timestamp="1602442231134" />
     <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1602270724998">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
