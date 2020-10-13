@@ -9,10 +9,10 @@ function copy_text(element) {
     //add to clipboard.
     document.execCommand('copy');
 }
-if (localStorage.getItem("cookieSeen") !== "shown") {
+if (localStorage.getItem("cookieAccept") !== "accepted") {
     $(".cookie-banner").delay(2000).fadeIn();
-    localStorage.setItem("cookieSeen","shown")
 }
 $(".close-cookie-banner").click(function() {
     $(".cookie-banner").fadeOut();
+    localStorage.setItem("cookieAccept","accepted")
 })

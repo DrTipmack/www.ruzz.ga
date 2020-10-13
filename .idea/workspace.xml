@@ -19,17 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7306dc7c-8395-45a7-a23d-ebd0d136877d" name="Default Changelist" comment="cleaned site, added copy text button">
+    <list default="true" id="7306dc7c-8395-45a7-a23d-ebd0d136877d" name="Default Changelist" comment="added cookie popup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IssTracker.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/IssTracker.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/other.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/other.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autosignin.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/autosignin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/elements.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic.html" beforeDir="false" afterPath="$PROJECT_DIR$/generic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/privacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/privacy.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +83,7 @@
       <workItem from="1602267209532" duration="5639000" />
       <workItem from="1602440467697" duration="3351000" />
       <workItem from="1602518772375" duration="1645000" />
-      <workItem from="1602607179424" duration="11252000" />
+      <workItem from="1602607179424" duration="12314000" />
     </task>
     <task id="LOCAL-00001" summary="fixed directory">
       <created>1602187472559</created>
@@ -122,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602519919329</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added cookie popup">
+      <created>1602621814319</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602621814320</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +142,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="fixed directory" />
     <MESSAGE value="cleaned site, added copy text button" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleaned site, added copy text button" />
+    <MESSAGE value="added cookie popup" />
+    <option name="LAST_COMMIT_MESSAGE" value="added cookie popup" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602621420352">
@@ -175,10 +174,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1602620385541" />
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602616624941">
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602621949688">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1602616624941" />
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1602621949688" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1602614834580">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
