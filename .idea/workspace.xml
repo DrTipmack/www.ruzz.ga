@@ -20,9 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7306dc7c-8395-45a7-a23d-ebd0d136877d" name="Default Changelist" comment="cleaned site, added copy text button">
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/credentials.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IssTracker.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/IssTracker.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/other.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/other.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autosignin.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/autosignin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/elements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic.html" beforeDir="false" afterPath="$PROJECT_DIR$/generic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/privacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/privacy.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +75,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ruzga\WebstormProjects\www.block101.co.uk\projects" />
       <recent name="C:\Users\ruzga\WebstormProjects\www.block101.co.uk\files" />
     </key>
   </component>
@@ -83,7 +91,8 @@
       <workItem from="1602191671358" duration="40000" />
       <workItem from="1602267209532" duration="5639000" />
       <workItem from="1602440467697" duration="3351000" />
-      <workItem from="1602518772375" duration="883000" />
+      <workItem from="1602518772375" duration="1645000" />
+      <workItem from="1602607179424" duration="11252000" />
     </task>
     <task id="LOCAL-00001" summary="fixed directory">
       <created>1602187472559</created>
@@ -106,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602518871469</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="cleaned site, added copy text button">
+      <created>1602519919329</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602519919329</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,10 +147,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="cleaned site, added copy text button" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1602187517049">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602621420352">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1602187517049" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1602621420352" />
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1602619427797">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1602619427797" />
     <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1602187166806">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -143,9 +163,29 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="456" y="275" key="ReplaceDuplicatesPrompt/0.0.1280.680@0.0.1280.680" timestamp="1602442231134" />
+    <state x="403" y="43" key="RollbackChangesDialog" timestamp="1602620921921">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="403" y="43" key="RollbackChangesDialog/0.0.1280.680@0.0.1280.680" timestamp="1602620921921" />
     <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1602270724998">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602270724998" />
+    <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602620385541">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1602620385541" />
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602616624941">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1602616624941" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1602614834580">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1602614834580" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1602621251447">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1602621251447" />
   </component>
 </project>
