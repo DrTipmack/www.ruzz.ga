@@ -19,10 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7306dc7c-8395-45a7-a23d-ebd0d136877d" name="Default Changelist" comment="added cookie popup">
+    <list default="true" id="7306dc7c-8395-45a7-a23d-ebd0d136877d" name="Default Changelist" comment="fixed popup for mobile">
+      <change afterPath="$PROJECT_DIR$/legal/privacy-policy.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic.html" beforeDir="false" afterPath="$PROJECT_DIR$/generic.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/privacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/legal/privacy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/IssTracker.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/IssTracker.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/autosignin.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/autosignin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/elements.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +74,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ruzga\WebstormProjects\www.block101.co.uk\legal" />
       <recent name="C:\Users\ruzga\WebstormProjects\www.block101.co.uk\projects" />
       <recent name="C:\Users\ruzga\WebstormProjects\www.block101.co.uk\files" />
     </key>
@@ -90,7 +96,7 @@
       <workItem from="1602440467697" duration="3351000" />
       <workItem from="1602518772375" duration="1645000" />
       <workItem from="1602607179424" duration="13095000" />
-      <workItem from="1602703935399" duration="5312000" />
+      <workItem from="1602703935399" duration="7019000" />
     </task>
     <task id="LOCAL-00001" summary="fixed directory">
       <created>1602187472559</created>
@@ -134,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602622905076</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fixed popup for mobile">
+      <created>1602709615185</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602709615185</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,13 +170,18 @@
     <MESSAGE value="fixed directory" />
     <MESSAGE value="cleaned site, added copy text button" />
     <MESSAGE value="added cookie popup" />
-    <option name="LAST_COMMIT_MESSAGE" value="added cookie popup" />
+    <MESSAGE value="fixed popup for mobile" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed popup for mobile" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602621420352">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1602621420352" />
+    <state x="414" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602709993840">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="414" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1602709993840" />
     <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1602619427797">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
