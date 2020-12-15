@@ -20,16 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7306dc7c-8395-45a7-a23d-ebd0d136877d" name="Default Changelist" comment="Using Google Tag Manager for Analytics">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/resources.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic.html" beforeDir="false" afterPath="$PROJECT_DIR$/generic.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/legal/privacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/legal/privacy.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/IssTracker.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/IssTracker.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/autosignin.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/autosignin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/elements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/resources.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/resources.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +110,7 @@
       <workItem from="1605725333450" duration="2954000" />
       <workItem from="1607632789131" duration="66000" />
       <workItem from="1607632941026" duration="348000" />
-      <workItem from="1608069307192" duration="812000" />
+      <workItem from="1608069307192" duration="1696000" />
     </task>
     <task id="LOCAL-00001" summary="fixed directory">
       <created>1602187472559</created>
@@ -170,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602711075284</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Using Google Tag Manager for Analytics">
+      <created>1608070234464</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608070234465</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,59 +201,5 @@
     <MESSAGE value="fixed popup for mobile" />
     <MESSAGE value="Using Google Tag Manager for Analytics" />
     <option name="LAST_COMMIT_MESSAGE" value="Using Google Tag Manager for Analytics" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602621420352">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1602621420352" />
-    <state x="414" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602709993840">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="414" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1602709993840" />
-    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1602619427797">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1602619427797" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1602187166806">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1602187166806" />
-    <state x="371" y="262" width="544" height="157" key="GitCloneDialog" timestamp="1602962691512">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="371" y="262" width="544" height="157" key="GitCloneDialog/0.0.1280.680@0.0.1280.680" timestamp="1602962691512" />
-    <state x="456" y="275" key="ReplaceDuplicatesPrompt" timestamp="1602442231134">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="456" y="275" key="ReplaceDuplicatesPrompt/0.0.1280.680@0.0.1280.680" timestamp="1602442231134" />
-    <state x="403" y="43" key="RollbackChangesDialog" timestamp="1602620921921">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="403" y="43" key="RollbackChangesDialog/0.0.1280.680@0.0.1280.680" timestamp="1602620921921" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1602705618018">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1602705618018" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1602711078346">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602711078346" />
-    <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602620385541">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1602620385541" />
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602621949688">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1602621949688" />
-    <state x="297" y="151" key="run.anything.popup" timestamp="1602614834580">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1602614834580" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1602621251447">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1602621251447" />
   </component>
 </project>
