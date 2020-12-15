@@ -19,12 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7306dc7c-8395-45a7-a23d-ebd0d136877d" name="Default Changelist" comment="fixed popup for mobile">
-      <change afterPath="$PROJECT_DIR$/legal/privacy-policy.txt" afterDir="false" />
+    <list default="true" id="7306dc7c-8395-45a7-a23d-ebd0d136877d" name="Default Changelist" comment="Using Google Tag Manager for Analytics">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/resources.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic.html" beforeDir="false" afterPath="$PROJECT_DIR$/generic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/privacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/legal/privacy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/legal/privacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/legal/privacy.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/IssTracker.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/IssTracker.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/autosignin.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/autosignin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/elements.html" afterDir="false" />
@@ -60,7 +62,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/index.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/projects" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -73,6 +75,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ruzga\WebstormProjects\www.block101.co.uk\projects" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ruzga\WebstormProjects\www.block101.co.uk\legal" />
       <recent name="C:\Users\ruzga\WebstormProjects\www.block101.co.uk\projects" />
@@ -96,7 +101,18 @@
       <workItem from="1602440467697" duration="3351000" />
       <workItem from="1602518772375" duration="1645000" />
       <workItem from="1602607179424" duration="13095000" />
-      <workItem from="1602703935399" duration="7019000" />
+      <workItem from="1602703935399" duration="7086000" />
+      <workItem from="1602778779190" duration="36000" />
+      <workItem from="1602962299079" duration="127000" />
+      <workItem from="1602962466703" duration="251000" />
+      <workItem from="1602963009846" duration="17000" />
+      <workItem from="1603273222469" duration="399000" />
+      <workItem from="1603901179783" duration="198000" />
+      <workItem from="1603901638161" duration="69000" />
+      <workItem from="1605725333450" duration="2954000" />
+      <workItem from="1607632789131" duration="66000" />
+      <workItem from="1607632941026" duration="348000" />
+      <workItem from="1608069307192" duration="812000" />
     </task>
     <task id="LOCAL-00001" summary="fixed directory">
       <created>1602187472559</created>
@@ -147,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602709615185</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fixed popup for mobile">
+      <created>1602711075284</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602711075284</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +194,8 @@
     <MESSAGE value="cleaned site, added copy text button" />
     <MESSAGE value="added cookie popup" />
     <MESSAGE value="fixed popup for mobile" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed popup for mobile" />
+    <MESSAGE value="Using Google Tag Manager for Analytics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Using Google Tag Manager for Analytics" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602621420352">
@@ -190,6 +214,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1602187166806" />
+    <state x="371" y="262" width="544" height="157" key="GitCloneDialog" timestamp="1602962691512">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="262" width="544" height="157" key="GitCloneDialog/0.0.1280.680@0.0.1280.680" timestamp="1602962691512" />
     <state x="456" y="275" key="ReplaceDuplicatesPrompt" timestamp="1602442231134">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -202,10 +230,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1602705618018" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1602622925536">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1602711078346">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602622925536" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602711078346" />
     <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602620385541">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
