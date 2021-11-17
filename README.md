@@ -1,4 +1,4 @@
-# Block101 website
+# ruzz.ga
 To see the website, go to [this link]
 
-[this link]: https://www.block101.co.uk
+[this link]: https://www.ruzz.ga
