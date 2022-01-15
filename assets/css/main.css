@@ -3467,6 +3467,7 @@ body.is-menu-visible #menu .close {
 	bottom: 0;
 	right: 0;
 	margin: 2%;
+	z-index: 100;
 }
 
 /* The switch - the box around the slider */
