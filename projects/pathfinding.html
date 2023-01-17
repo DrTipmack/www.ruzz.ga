@@ -29,6 +29,7 @@
       style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
+
   <!-- Cookies banner -->
   <div class="cookie-banner" style="display: none">
     <p>
@@ -92,89 +93,41 @@
     <!-- Main -->
     <div id="main">
       <div class="inner">
-        <h1>Turkish Vaccination Data</h1>
-
-        <span class="image main"><img src="../images/projects/trVaccData/trVaccData1.png" class="image fit" /></span>
-        <p>
-          This is a little project I did to learn a bit of data science and Juptyer notebooks.
-          It takes a CSV file of vaccination data from the Turkish government and outputs a few graphs.
-          The data is from <a href="https://www.kaggle.com/omercolakoglu/turkey-covid-19-vaccination-data">Kaggle</a>
-          The data came in the format of an SQL database backup with +3 million rows, so I had to restore it, get
-          numbers from, then
-          convert those numbers to a CSV file (<a href="/files/totalDoses.csv" download>download</a>)
-
-        </p>
-        <p>
-          I did this by using the Pandas library in python, which required the file to be imported
-          as a DataFrame <code>data = pd.read_csv(path)</code>, then I calculated the total doses,
-          percentages and other data by using commands like
-          <code>data["diffOfDose"] = data["1DOSE"] - data["2DOSE"]</code>
-          Then I plotted the data in a Juptyer notebook, using the plotly library, which, after some headaches with
-          other
-          libraries, I found to be the best.
-          I wanted to create a chotopleth map of the percentages for each county, which required the geojson data of
-          turkey.
-          After some searching, I found the data in <a
-            href"https://raw.githubusercontent.com/alpers/Turkey-Maps-GeoJSON/master/tr-cities.json">this GitHub
-            repo</a>.
-          The code I use for generating the map is:
-          <br>
-        <pre><code>
-              def makeMap(value, colorrange, labelName):
-                geojsonlink = "https://raw.githubusercontent.com/alpers/Turkey-Maps-GeoJSON/master/tr-cities.json"
-          
-                with urlopen(geojsonlink) as response:
-                  cities = json.load(response)
         
-                  fig = px.choropleth(data,
-                                      geojson=cities,
-                                      color=value,
-                                      locations="CITY",   
-                                      featureidkey="properties.name",
-                                      range_color=colorrange,
-                                      labels={"CITY" :"City", value: labelName},
-                                      color_continuous_scale="tempo") #matter algae
-                  fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
-                  fig.update_geos(fitbounds="locations", visible=False)
-                  fig.show()
-            </code></pre>
+        <h1>A* Pathfinfing</h1>
+        <span class="image main"><img src="../images/pic13.jpg" alt="" /></span>
         <p>
-          This code generates the map you see in the title.
-          I also made a grouped bar chart of the doses. The graph below shows the first dose of the top 5 cities.
-          I was going to make it top 5, then a nice seperator, then bottom 5 for the percentages in one chart, but that
-          proved too difficult,
-          so I instead made 2 charts:
+          This project is an implementation of the A* (a-star) pathfinding search algorithm in <b>Unity</b> using <b>C#</b>. It is used in apps such as <b>Google Maps</b> to find the optimal route between two locations.
         </p>
 
-        <img src="../images/projects/trVaccData/trVaccData2.png" alt="" class="image fit" />
-        <img src="../images/projects/trVaccData/trVaccData3.png" alt="" class="image fit" />
+        <h2>The World</h2>
+        <div class="paragraphGrid">
+          <img src="../images/projects/pathfinding/image2.png", height="300" width="300"/>
+          <p>
+            The testing world is set out in order to give the algorithm a slight challenge:
+            <br>=>The red boxes are obstacles it has to avoid,
+            <br>=>the grass is unfavorable ground which is preferably avoided,
+            <br>=>the dirt path being the preferred surface.
+          </p>
+        </div>
 
+        <h2>The grid</h2>
+        <div class="paragraphGrid">
+          <img src="../images/projects/pathfinding/image5.png", height="200" width="300"/>
+          <p>
+            The algorithm uses a 2-dimensional grid which is scaled to fit any sized world. Each box is called a node. The nodes obstacles occupy are considered unwalkable.
+          </p>
+        </div>
+
+        <h2>The Algorithm</h2>
         <p>
-          The graphs are also generated using the plotly library, with the following code:
+          <span class="image left"><img src="../images/projects/pathfinding/image3.png" alt="" /></span>
+          Without delving into too many details, the A* algorithm using 2 measurements: The distance from the starting node (known as the <b>G cost</b>) and the distance from the target node (known as the <b>Heuristic</b>, or <b>H cost</b>). These two costs added up are called the <b>F cost</b>. (why? I don't know). The algorithm works by calculating the costs for nodes which are neighboring the already explored ones, then picking the one with the lowest cost as the next node in the path, then exploring its neighbors and so on until the target node is reached. This system is guaranteed to find not only a path, but the shortest one.
+          <br><br>
+          It also is extremely quick, using optimization techniques such as heaps, I was able to run it on a world with <b>250,000</b> nodes and find the optimal path from one end to another in <b>24</b> milliseconds.
           <br>
-        <pre><code>
-                def top5Bar(mainNum, otherNum, colours):
-                  name1 = "percOfDose" + str(mainNum)
-                  name2 = "percOfDose" + str(otherNum)
-
-                  mainDose = data.nlargest(5, name1)[["CITY", name1]]
-                  otherDose = data.loc[data['CITY'].isin(mainDose["CITY"])].copy()
-
-                  mainDose[name1] = mainDose[name1].round(decimals=1)
-                  otherDose[name2] = otherDose[name2].round(decimals=1)
-
-                  fig = go.Figure(data=[
-                      go.Bar(name="% of Dose " + str(mainNum), x = mainDose["CITY"],y=mainDose[name1],
-                            marker=dict(color=colours[0],opacity=0.8)),
-                      go.Bar(name="% of Dose " + str(otherNum), x = otherDose["CITY"],y=otherDose[name2],
-                            marker=dict(color=colours[1],opacity=0.8))
-                  ])
-                  fig.update_layout(barmode="group", title_text="Top 5 cities sorted by the highest percentage of "+
-                                                                str(mainNum) + findSuffix(mainNum) + " Dose (not " +
-                                                                str(otherNum) + findSuffix(otherNum) + ")")
-                  fig.show()
-              </code></pre>
-        The code for the bottom 5 is similar.
+          To calculate the distances, I used a horizontal move to count as <b>1</b>, and a diagonal move as <b>√2</b>, or <b>1.4</b> arbitrary units. To use only integers, these values are multiplied by ten, meaning a horizontal move is considered <b>10</b>, a diagonal <b>14</b>.
+        </p>
       </div>
     </div>
 

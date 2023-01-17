@@ -45,7 +45,7 @@ body {
 
 body.dark-theme {
 	line-height: 2;
-	--text-color: #b49393;
+	--text-color: #d39292;
 	--background-color: #383838;
 	--footer-color: #1a1a1a;
 	--anchor-color: #b8b8b8;
@@ -65,7 +65,7 @@ body.dark-theme {
 	/* defaults to dark theme */
 	body {
 		line-height: 2;
-		--text-color: #b49393;
+		--text-color: #d39292;
 		--background-color: #383838;
 		--footer-color: #1a1a1a;
 		--anchor-color: #b8b8b8;
@@ -3541,3 +3541,30 @@ body.is-menu-visible #menu .close {
   .slider.round:before {
 	border-radius: 50%;
   }
+
+ .paragraphGrid {
+	display: grid;
+	padding: 2rem;
+	grid-template-columns: 300px 1fr;
+	gap: 1rem;
+	align-items: ;
+	max-width: 800px;
+	margin: 0 90 0 0;
+ }
+ .paragraphGrid.img {
+	max-width: 100%;
+  	height: auto;
+ }
+
+ @media screen and (max-width: 650px) {
+	.paragraphGrid {
+		display: block;
+		font-size: 80%;
+	  }
+	.paragraphGrid.p {
+		position: relative;
+		margin: -3rem 0 2rem 1rem;
+		padding: 1rem;
+		background: rgba(white, 0.8);
+	  }
+ }
