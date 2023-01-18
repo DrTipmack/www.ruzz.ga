@@ -3547,8 +3547,9 @@ body.is-menu-visible #menu .close {
 	padding: 2rem;
 	grid-template-columns: 300px 1fr;
 	gap: 1rem;
-	align-items: ;
+	align-items: grid;
 	max-width: 800px;
+	position: relative;
 	margin: 0 90 0 0;
  }
  .paragraphGrid.img {

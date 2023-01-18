@@ -72,6 +72,9 @@
               <a href="autosignin.html">Classroom auto-sign-in</a>
             </li>
             <li>
+              <a href="trVaccData.html">Turkey Vaccination Graphs</a>
+            </li>
+            <li>
               <a href="fortuneteller.html">Fortune-teller</a>
             </li>
             <li>
@@ -95,7 +98,7 @@
       <div class="inner">
         
         <h1>A* Pathfinfing</h1>
-        <span class="image main"><img src="../images/pic13.jpg" alt="" /></span>
+        <span class="image main"><img src="../images/projects/pathfinding/card.gif" alt="" /></span>
         <p>
           This project is an implementation of the A* (a-star) pathfinding search algorithm in <b>Unity</b> using <b>C#</b>. It is used in apps such as <b>Google Maps</b> to find the optimal route between two locations.
         </p>
@@ -128,6 +131,30 @@
           <br>
           To calculate the distances, I used a horizontal move to count as <b>1</b>, and a diagonal move as <b>√2</b>, or <b>1.4</b> arbitrary units. To use only integers, these values are multiplied by ten, meaning a horizontal move is considered <b>10</b>, a diagonal <b>14</b>.
         </p>
+
+        <h2>Path Optimizations</h2>
+        <div class="paragraphGrid">
+          <img src="../images/projects/pathfinding/image7.png", height="200" width="300"/>
+          <p>Using the algorithm as-is means there are many redundant points. For example, moving in a straight line, we can use only one waypoint denoting a straight line, rather one every node, as shown in the picture.
+          </p>
+        </div>
+
+        <h2>Weights</h2>
+        <div>
+          <p>
+            <span class="image left"><img src="../images/projects/pathfinding/image6.png" alt="" /></span>
+
+            You may have noticed that in the picture above, the algorithm did not take the shortest route, and instead preferred the path. This is due to weights implemented in the algorithm. Weights mean that the cost for going on some surfaces is greater than other surfaces. By tweaking the weights, we can create an path which only goes on grass, sometimes dares walking over it, or one which is terrified of the prospect of grass
+The weights can be pictured through a choropleth map.
+          </p>
+
+          <div class="paragraphGrid">
+            <img src="../images/projects/pathfinding/image7.png", height="300" width="300"/>
+            <img src="../images/projects/pathfinding/image7.png", height="300" width="300"/>
+            <p>This algorithm has grass being set as 3 times as unfavorable as the path. This shows that it still will go through the grass if it is much shorter.</p>
+            <p>This algorithm has grass as 50 times more unfavorable, and it does its best to avoid grass at all costs.</p>
+          </div>
+        </div>
       </div>
     </div>
 
